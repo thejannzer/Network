@@ -44,7 +44,7 @@ def scan_network():
 
     threading.Thread(target=scan).start()
 
-# ---------- GUI ----------
+# ----------- GUI -----------
 root = tk.Tk()
 root.title("nmap Netzwerkscanner")
 root.geometry("1000x800")
